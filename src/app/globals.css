@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply text-slate-800 bg-white font-sans; }
+}
+
+@layer components {
+  .section-label {
+    @apply text-xs font-bold tracking-[0.2em] uppercase text-blue-600 mb-3;
+  }
+  .section-heading {
+    @apply text-3xl font-bold text-slate-900 mb-4;
+  }
+  .section-sub {
+    @apply text-slate-500 text-base leading-relaxed;
+  }
+  .card {
+    @apply bg-white border border-slate-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors duration-150 text-sm;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-slate-200 hover:border-blue-300 text-slate-700 hover:text-blue-600 font-medium px-5 py-2.5 rounded-lg transition-colors duration-150 text-sm;
+  }
+}
