@@ -55,7 +55,7 @@ export default function Hero() {
                 className="text-slate-400 hover:text-slate-700 transition-colors">
                 <Github size={20} />
               </a>
-              <a href="mailto:ku@kohlex.com"
+              <a href="mailto:ullagaddi@gmail.com"
                 className="text-slate-400 hover:text-blue-600 transition-colors">
                 <Mail size={20} />
               </a>

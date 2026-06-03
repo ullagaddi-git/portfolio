@@ -4,8 +4,8 @@ const links = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'ku@kohlex.com',
-    href: 'mailto:ku@kohlex.com',
+    value: 'ullagaddi@gmail.com',
+    href: 'mailto:ullagaddi@gmail.com',
     desc: 'Best for project inquiries',
   },
   {
@@ -69,7 +69,7 @@ export default function Contact() {
           <p className="text-slate-400 text-sm mb-5">
             Whether it&apos;s an AI system, a product leadership role, or a consulting engagement — I&apos;d love to hear from you.
           </p>
-          <a href="mailto:ku@kohlex.com" className="btn-primary">
+          <a href="mailto:ullagaddi@gmail.com" className="btn-primary">
             <Mail size={15} />
             Send a message
           </a>
