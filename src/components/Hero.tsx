@@ -15,7 +15,7 @@ export default function Hero() {
           <div>
             <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-              Open to new opportunities
+              Open to AI Transformation / Delivery leadership roles
             </div>
 
             <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-4">
@@ -24,15 +24,16 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg font-semibold text-slate-600 mb-2">
-              Associate General Manager &amp; AI Product Leader
+              AI Transformation Lead &amp; Associate General Manager
             </p>
             <p className="text-sm text-slate-400 font-medium mb-6 tracking-wide">
-              PMP® &nbsp;·&nbsp; ASQ Six Sigma Green Belt
+              PMP® &nbsp;·&nbsp; ASQ Six Sigma Green Belt &nbsp;·&nbsp; 22+ yrs &nbsp;·&nbsp; ~9 yrs USA
             </p>
 
             <p className="text-slate-600 leading-relaxed mb-8 max-w-md">
-              I architect and ship production AI systems that automate operations,
-              accelerate sales intelligence, and improve engineering delivery.
+              I pair 22+ years of program delivery, P&amp;L ownership, and Lean Six Sigma rigour
+              with hands-on agentic-AI engineering — architecting and shipping production
+              multi-agent systems that automate operations and accelerate delivery.
               4 systems live. 70% time saved. 24/7 autonomous.
             </p>
 
@@ -65,12 +66,12 @@ export default function Hero() {
           {/* Right — stat cards */}
           <div className="grid grid-cols-2 gap-4">
             {[
+              { num: '22+', label: 'Years Experience', desc: 'PMP · AGM · ~9 yrs USA' },
               { num: '4', label: 'AI Systems Shipped', desc: 'Production, not pilots' },
+              { num: '$1M+', label: 'P&L Portfolio', desc: '28 engineering projects' },
               { num: '70%', label: 'Time Saved', desc: 'Per lead qualification' },
-              { num: '24/7', label: 'Autonomous', desc: 'Zero-touch pipelines' },
-              { num: '10+', label: 'Years Experience', desc: 'AGM · PM · Scrum' },
             ].map(s => (
-              <div key={s.num} className="card p-5">
+              <div key={s.label} className="card p-5">
                 <div className="text-3xl font-extrabold text-blue-600 mb-1">{s.num}</div>
                 <div className="text-sm font-semibold text-slate-800 mb-0.5">{s.label}</div>
                 <div className="text-xs text-slate-400">{s.desc}</div>

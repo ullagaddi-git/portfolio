@@ -19,49 +19,55 @@ export default function Post() {
 
         <div className="prose prose-slate max-w-none text-slate-700 leading-relaxed space-y-5">
           <p>
-            When I set out to build Kohlex AI Scrum, the skeptic in me — the PMP®-certified, Six
-            Sigma one — assumed an AI would never replace the human judgment a good Scrum Master
-            brings. After running it in production across distributed engineering teams, I was half
-            right. The AI is exceptional at some things, useless at others. Here&apos;s the honest
-            breakdown.
+            We built Kohlex AI Scrum because our distributed engineering team kept losing time to the
+            ceremony of Scrum rather than the substance of it. Stand-ups ran long, blockers surfaced
+            late, and sprint commitments rarely matched real capacity. After running an AI delivery
+            co-pilot in production for several months, here is the honest account of what it does well,
+            what it can not do, and how the team changed around it.
           </p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">What It Does</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">What the AI handles well</h2>
           <p>
-            Kohlex AI Scrum is a delivery-intelligence platform (Next.js, Node.js, PostgreSQL) that
-            acts as an AI delivery co-pilot rather than a replacement for the team. It runs
-            asynchronous daily stand-ups, does AI-driven sprint planning with capacity modeling,
-            detects blocker patterns across sprints, and forecasts delivery risk before it
-            materializes.
-          </p>
-
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">Where It Wins</h2>
-          <ol className="list-decimal list-inside space-y-2 text-sm">
-            <li><strong>Async stand-ups</strong> — distributed teams across time zones stop losing a daily meeting; the AI synthesizes updates into a single status view.</li>
-            <li><strong>Capacity modeling</strong> — it catches over-commitment that humans optimistically wave through during planning.</li>
-            <li><strong>Blocker pattern detection</strong> — it spots the same blocker recurring across sprints, something a rotating human SM rarely connects.</li>
-            <li><strong>Risk forecasting</strong> — it flags a sprint goal at risk days earlier than a burndown chart reveals it.</li>
-          </ol>
-
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">Where It Fails</h2>
-          <p>
-            The AI cannot read a room. When a developer is quietly burning out, when two engineers
-            have an unspoken design disagreement, or when a stakeholder&apos;s &quot;urgent&quot;
-            request is really political — that still needs a human. The AI surfaces the signal
-            (velocity dropping, blockers piling up); a person has to interpret the why.
+            The AI is excellent at the mechanical, high-frequency work that humans do badly when they
+            are busy: collecting asynchronous stand-up updates across time zones, summarising them into
+            a single status, and flagging when the same blocker appears two days in a row. It models
+            capacity honestly — it does not get optimistic at planning time — so sprint commitments are
+            grounded in actual historical throughput rather than wishful thinking.
           </p>
           <p>
-            It also won&apos;t make the hard prioritization calls. It can model that you&apos;re
-            over capacity by 20%; deciding <em>what</em> to cut is a leadership decision, not a
-            calculation.
+            Pattern detection is where it earns its keep. A human Scrum Master notices a recurring
+            blocker eventually; the AI notices it on the second occurrence and escalates with the
+            relevant history attached. Over-commitment dropped measurably once the team could see a
+            data-backed forecast instead of a gut feel.
           </p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">The Takeaway</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">Where it still needs a human</h2>
           <p>
-            Treat the AI Scrum Master as instrumentation, not authority. It reduces over-commitment
-            and improves sprint-goal achievement by removing the busywork and catching patterns
-            humans miss — and it frees the actual Scrum Master to do the one thing AI still
-            can&apos;t: lead people.
+            The AI cannot read the room. It does not know that an engineer is quiet in stand-up because
+            they are stuck and embarrassed, not because they are heads-down and fine. It cannot navigate
+            the politics of a dependency owned by another team, or decide that this sprint we protect a
+            person from burnout at the cost of a deadline. Judgement, trust, and difficult conversations
+            remain firmly human work.
+          </p>
+          <p>
+            It also fails when the input is thin. If people write one-line updates, the summaries are
+            shallow. The tool amplifies the team's discipline — it does not replace it.
+          </p>
+
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">How the team adapted</h2>
+          <p>
+            The biggest shift was cultural: once the status reporting was automated, our live stand-ups
+            stopped being status theatre and became problem-solving sessions. We spend the fifteen
+            minutes on the two blockers that matter, because everyone has already read the AI-generated
+            summary. The Scrum Master role did not disappear — it moved up the value chain, from
+            chasing updates to coaching and removing impediments.
+          </p>
+
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">The verdict</h2>
+          <p>
+            An AI Scrum Master is a force multiplier, not a replacement. Treat it as a senior coach that
+            never sleeps and never forgets a blocker, and pair it with a human who owns the judgement
+            calls. That combination shipped more predictable sprints for us than either could alone.
           </p>
         </div>
       </div>

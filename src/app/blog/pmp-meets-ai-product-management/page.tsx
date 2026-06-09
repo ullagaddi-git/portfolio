@@ -19,43 +19,45 @@ export default function Post() {
 
         <div className="prose prose-slate max-w-none text-slate-700 leading-relaxed space-y-5">
           <p>
-            I spent 20+ years learning to do things properly: PMP® for governance, ASQ Six Sigma for
-            rigor, CMMI and ISO for delivery discipline. Then I started shipping production AI
-            systems with Claude and Cursor and discovered I could build in days what used to take a
-            quarter. The obvious question: do the old frameworks still matter? My answer, after four
-            shipped platforms — yes, more than ever. But their <em>role</em> changes.
+            I spent two decades learning to deliver projects the disciplined way: PMP for structure,
+            Six Sigma for measurement. Then I started building with LLMs and watched work that used to
+            take a week collapse into an afternoon. The obvious question followed — do the old
+            frameworks still matter when AI moves this fast? My answer, after shipping four production
+            AI systems, is that they matter more, not less.
           </p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">Speed Without Rigor Is Just Fast Mistakes</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">What does not change</h2>
           <p>
-            LLMs collapse the cost of producing work — code, PRDs, analysis. What they don&apos;t
-            collapse is the cost of producing the <em>wrong</em> work at scale. That&apos;s exactly
-            the gap PMP and Six Sigma fill: defining the problem, the acceptance criteria, and the
-            measure of done before you let the AI sprint toward a solution.
+            Scope, stakeholders, risk, and quality are human problems, and AI does not solve them. A
+            model will happily generate the wrong feature beautifully. PMP's discipline — define the
+            outcome, identify the stakeholders, track the risks, govern the change — is exactly what
+            keeps an AI-accelerated team from shipping fast in the wrong direction. The faster you can
+            build, the more expensive a missing requirement becomes.
           </p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">How I Blend the Two</h2>
-          <ol className="list-decimal list-inside space-y-2 text-sm">
-            <li><strong>PRD first, always</strong> — I still author a tight requirements doc. The difference: Claude turns it into a working prototype the same day, so the PRD gets validated against reality immediately.</li>
-            <li><strong>Define the metric before the build</strong> — Six Sigma taught me to baseline first. &quot;Cut per-lead research time by 70%&quot; was a target, not a result I discovered afterward.</li>
-            <li><strong>Structured handoffs</strong> — the same discipline that governs a stage-gate review now governs the JSON contracts between AI agents. Ambiguity is the enemy in both.</li>
-            <li><strong>Governance as guardrails, not gates</strong> — CI/CD and code review replace the heavyweight approval boards. The control is continuous, not a quarterly ceremony.</li>
-          </ol>
-
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">What Actually Changed</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">What AI accelerates</h2>
           <p>
-            The frameworks didn&apos;t get replaced — the cadence did. Planning that took weeks now
-            takes a conversation. Iteration that took a sprint takes an afternoon. The PM&apos;s job
-            shifts from <em>managing the work</em> to <em>defining what good looks like</em> and
-            verifying the AI got there.
+            Where AI changes the game is the cost of iteration. Drafting PRDs, exploring solution
+            options, prototyping, writing tests, and producing status artefacts all shrink from days to
+            minutes. Six Sigma's DMAIC loop — define, measure, analyse, improve, control — runs far
+            faster when the measure and analyse steps are AI-assisted. You get more turns of the loop
+            per sprint, which is the real compounding advantage.
           </p>
 
-          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">The Takeaway</h2>
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">The new PM skill</h2>
           <p>
-            PMP gave me the rigor; Claude gave me the speed. Used together, I ship faster without
-            cutting the corners that matter. The teams that struggle with AI aren&apos;t the ones
-            with too much process — they&apos;re the ones who threw it all out and called the chaos
-            &quot;moving fast.&quot;
+            The skill that now separates good delivery leaders is knowing where to point the speed.
+            Anyone can ask a model to build something; the value is in choosing the highest-leverage
+            problem, specifying it precisely, and validating the output against a real acceptance bar.
+            That is judgement, and judgement is exactly what PMP and Six Sigma train.
+          </p>
+
+          <h2 className="text-xl font-bold text-slate-900 mt-8 mb-3">Bottom line</h2>
+          <p>
+            AI did not make my project-management training obsolete. It removed the friction around the
+            work so that the discipline could actually shine. The rigour tells you what to build and how
+            to know it is right; the AI lets you get there in a fraction of the time. Blend both and you
+            ship faster without cutting the corners that sink projects.
           </p>
         </div>
       </div>
